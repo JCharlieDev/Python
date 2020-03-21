@@ -14,7 +14,7 @@ def IsChecked():
 
     myLabel = Label(root, text=chkVar.get()).pack()
 
-chkButton = Checkbutton(root, text = "Check this box!", variable = chkVar, onvalue = "Pizza", offvalue = "Hamburger")
+chkButton = Checkbutton(root, text = "Would you like to Supersize your order?", variable = chkVar, onvalue = "Supersize", offvalue = "Regular Size")
 chkButton.deselect()
 chkButton.pack()
 
