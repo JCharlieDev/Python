@@ -14,6 +14,7 @@ ddbMenuOptions = [
     "Thursday",
     "Friday",
     "Saturday",
+    "Sunday"
 ]
 
 ddbOption = StringVar()

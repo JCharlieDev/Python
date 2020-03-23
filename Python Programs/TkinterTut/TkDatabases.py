@@ -72,16 +72,19 @@ def ShowRecords():
     records = cursor.fetchall()   #   Fecthes all reecords
     #   print(records)
 
+    #   Loop through records
     for record in records:
         printRecords += str(record[0]) + " " + str(record[1]) + " " + "\t" + str(record[6]) + "\n"
 
     queryLabel = Label(root, text = printRecords)
-    queryLabel.grid(row = 11, column = 0, columnspan = 2)
+    queryLabel.grid(row = 12, column = 0, columnspan = 2)
 
     #   Commit changes
     conn.commit()
     #   Close Connection
     conn.close()
+
+#   Create Delete function
 
 def Delete():
 
@@ -99,6 +102,134 @@ def Delete():
     #   Close Connection
     conn.close()
 
+# Create Update button
+
+def Update():
+
+    #   Create or connect to a database
+    conn = sqlite3.connect('Databases\\address_book.db')
+    #   Create cursor instance
+    cursor = conn.cursor()
+
+    recordID = deleteBox.get()
+
+    cursor.execute(""" UPDATE addresses SET
+        firstName = :first,
+        lastName = :last,
+        address = :address,
+        city = :city,
+        state = :state,
+        zipCode = :zipCode
+    
+        WHERE oid = :oid""",
+                   {
+                       'first': firstNameUpdate.get(),
+                       'last': lastNameUpdate.get(),
+                       'address': addressUpdate.get(),
+                       'city': cityUpdate.get(),
+                       'state': stateUpdate.get(),
+                       'zipCode': zipCodeUpdate.get(),
+                       'oid': recordID
+                   })
+
+
+    #   Commit Changes
+    conn.commit()
+    #   Close Connection
+    conn.close()
+
+    updateWindow.destroy()
+
+#   Create new Window function
+
+def UpdateWindow():
+
+    global updateWindow
+
+    updateWindow = Tk()
+    updateWindow.title("Update Database Record")
+    updateWindow.iconbitmap("tabicon.ico")
+    updateWindow.geometry("700x700")
+
+    printRecords = ''
+    recordID = deleteBox.get()
+
+    #   Create or connect to a database
+    conn = sqlite3.connect('Databases\\address_book.db')
+    #   Create cursor instance
+    cursor = conn.cursor()
+
+    #   Query the database
+
+    cursor.execute("SELECT *, oid FROM addresses WHERE oid = " + recordID)
+    records = cursor.fetchall()   #   Fecthes all reecords
+
+    queryLabel = Label(root, text = printRecords)
+    queryLabel.grid(row = 12, column = 0, columnspan = 2)
+
+    #   Create Global variables for text box names
+
+    global firstNameUpdate
+    global lastNameUpdate
+    global addressUpdate
+    global cityUpdate
+    global stateUpdate
+    global zipCodeUpdate
+
+
+    #   Create text boxes
+    firstNameUpdate = Entry(updateWindow, width=30)
+    firstNameUpdate.grid(row=0, column=1, padx=20, pady=(10, 0))
+
+    lastNameUpdate = Entry(updateWindow, width=30)
+    lastNameUpdate.grid(row=1, column=1)
+
+    addressUpdate = Entry(updateWindow, width=30)
+    addressUpdate.grid(row=2, column=1)
+
+    cityUpdate = Entry(updateWindow, width=30)
+    cityUpdate.grid(row=3, column=1)
+
+    stateUpdate = Entry(updateWindow, width=30)
+    stateUpdate.grid(row=4, column=1)
+
+    zipCodeUpdate = Entry(updateWindow, width=30)
+    zipCodeUpdate.grid(row=5, column=1)
+
+    #   Create text box labels
+
+    firstNameLabelUpdate = Label(updateWindow, text="First Name:")
+    firstNameLabelUpdate.grid(row=0, column=0, pady=(10, 0))
+
+    lastNameLabelUpdate = Label(updateWindow, text="Last Name:")
+    lastNameLabelUpdate.grid(row=1, column=0)
+
+    addressLabelUpdate = Label(updateWindow, text="Address:")
+    addressLabelUpdate.grid(row=2, column=0)
+
+    cityLabelUpdate = Label(updateWindow, text="City:")
+    cityLabelUpdate.grid(row=3, column=0)
+
+    stateLabelUpdate = Label(updateWindow, text="State:")
+    stateLabelUpdate.grid(row=4, column=0)
+
+    zipCodeLabelUpdate = Label(updateWindow, text="Zip Code:")
+    zipCodeLabelUpdate.grid(row=5, column=0)
+
+    #   Loop through results
+
+    for record in records:
+        firstNameUpdate.insert(0, record[0])
+        lastNameUpdate.insert(0, record[1])
+        addressUpdate.insert(0, record[2])
+        cityUpdate.insert(0, record[3])
+        stateUpdate.insert(0, record[4])
+        zipCodeUpdate.insert(0, record[5])
+
+    #   Create Update Button
+
+    updateButton = Button(updateWindow, text="Save Record to Database", command= Update)
+    updateButton.grid(row=6, column=0, columnspan=2, pady=10, padx=10, ipadx=100)
 
 #   Create text boxes
 firstName = Entry(root, width = 30)
@@ -159,6 +290,11 @@ queryButton.grid(row = 7, column = 0, columnspan = 2, pady = 10, padx = 10, ipad
 
 deleteButton = Button(root, text = "Delete Records", command = Delete)
 deleteButton.grid(row = 9, column = 0, columnspan = 2, pady = 10, padx = 10, ipadx = 100)
+
+#   Create Update Button
+
+updateButton = Button(root, text = "Edit Record", command = UpdateWindow)
+updateButton.grid(row = 11, column = 0, columnspan = 2, pady = 10, padx = 10, ipadx = 100)
 
 #   Commit changes
 conn.commit()
