@@ -8,7 +8,7 @@ root.iconbitmap("tabicon.ico")
 
 def Popup():
 
-    response = messagebox.askyesno("Some Message Box", "Hello world!")
+    response = messagebox.showinfo("Some Message Box", "Usuario agregado con exito!")
     Label(root, text = response).pack()
 
     if response == 1:

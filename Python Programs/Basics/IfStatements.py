@@ -10,4 +10,3 @@ elif not(isMale) and isTall:
     print("You are not a male but you are tall")
 else:
     print("You are not a male and you are not tall")
-

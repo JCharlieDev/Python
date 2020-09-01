@@ -25,22 +25,25 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Python Programs/DAITOVTEST/Scripts" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\MSI\Desktop\VideoGames Stuff\Programming Languages\Python\Python Programs\Basics\TestFiles" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub Repos\Python\Python Programs\DAITOVTEST\Resources\Audio\Dialogos\Intro" />
       <recent name="C:\Users\MSI\Desktop\VideoGames Stuff\Programming Languages\Python\Python Programs\TkinterTut" />
       <recent name="C:\Users\MSI\Desktop\VideoGames Stuff\Programming Languages\Python\Python Programs" />
       <recent name="C:\Users\MSI\Desktop\VideoGames Stuff\Programming Languages\Python\Python Programs\Basics\InheritanceExample" />
       <recent name="C:\Users\MSI\Desktop\VideoGames Stuff\Programming Languages\Python\Python Programs\Basics" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub Repos\Python\Python Programs\DAITOVTEST\Scripts" />
+      <recent name="D:\GitHub Repos\Python\Python Programs\DAITOVTEST\Resources\Audio\Dialogos\Intro" />
+      <recent name="C:\Users\MSI\Desktop\VideoGames Stuff\Programming Languages\Python\Python Programs\Basics\TestFiles" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.TkDatabases">
-    <configuration name="TkCheckboxes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.WhileLoop">
+    <configuration name="DAITOVTEST" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -48,11 +51,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python Programs/TkinterTut" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python Programs/DAITOVTEST/Scripts" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Programs/TkinterTut/TkCheckboxes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Programs/DAITOVTEST/Scripts/DAITOVTEST.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -61,7 +64,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="TkDatabases" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Lego" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -69,11 +72,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python Programs/TkinterTut" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python Programs/Projects" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Programs/TkinterTut/TkDatabases.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Programs/Projects/Lego.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -82,7 +85,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="TkDropDownMenu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Secuencia" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -90,11 +93,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python Programs/TkinterTut" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python Programs/DAITOVTEST/Scripts" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Programs/TkinterTut/TkDropDownMenu.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Programs/DAITOVTEST/Scripts/Secuencia.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -103,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="TkOpenFilesDialogBox" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="TkMessageBox" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -115,7 +118,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Programs/TkinterTut/TkOpenFilesDialogBox.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Programs/TkinterTut/TkMessageBox.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -124,7 +127,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="TkSliders" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="VideoConverter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,11 +135,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python Programs/TkinterTut" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python Programs/DAITOVTEST/Scripts" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Programs/TkinterTut/TkSliders.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Programs/DAITOVTEST/Scripts/VideoConverter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="WhileLoop" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python Programs/Basics" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Programs/Basics/WhileLoop.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.TkDatabases" />
-        <item itemvalue="Python.TkDropDownMenu" />
-        <item itemvalue="Python.TkCheckboxes" />
-        <item itemvalue="Python.TkOpenFilesDialogBox" />
-        <item itemvalue="Python.TkSliders" />
+        <item itemvalue="Python.WhileLoop" />
+        <item itemvalue="Python.DAITOVTEST" />
+        <item itemvalue="Python.Lego" />
+        <item itemvalue="Python.VideoConverter" />
+        <item itemvalue="Python.TkMessageBox" />
       </list>
     </recent_temporary>
   </component>
@@ -169,87 +193,62 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="524" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583895040198">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1598826468955">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="524" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1583895040198" />
-    <state x="2606" y="211" key="FileChooserDialogImpl" timestamp="1584757582232">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1598826468955" />
+    <state width="1877" height="265" key="GridCell.Tab.0.bottom/3840.0.1920.1040/0.0.1920.1040/1920.0.1920.1040/5760.0.1920.1040@1920.0.1920.1040" timestamp="1591275957102" />
+    <state width="1877" height="265" key="GridCell.Tab.0.bottom/3840.0.1920.1040/1920.0.1920.1040/0.0.1920.1040/5760.0.1920.1040@1920.0.1920.1040" timestamp="1591074432904" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1598826468955">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583746889762" />
-    <state x="2606" y="211" key="FileChooserDialogImpl/3840.0.1920.1040/1920.0.1920.1040/5760.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1584757582232" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1585007094992">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1598826468955" />
+    <state width="1877" height="265" key="GridCell.Tab.0.center/3840.0.1920.1040/0.0.1920.1040/1920.0.1920.1040/5760.0.1920.1040@1920.0.1920.1040" timestamp="1591275957102" />
+    <state width="1877" height="265" key="GridCell.Tab.0.center/3840.0.1920.1040/1920.0.1920.1040/0.0.1920.1040/5760.0.1920.1040@1920.0.1920.1040" timestamp="1591074432904" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1598826468955">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1584410418979" />
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584408842500" />
-    <state width="1493" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584661649157" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/3840.0.1920.1040/1920.0.1920.1040/5760.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1585007094992" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1585007094991">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1598826468955" />
+    <state width="1877" height="265" key="GridCell.Tab.0.left/3840.0.1920.1040/0.0.1920.1040/1920.0.1920.1040/5760.0.1920.1040@1920.0.1920.1040" timestamp="1591275957102" />
+    <state width="1877" height="265" key="GridCell.Tab.0.left/3840.0.1920.1040/1920.0.1920.1040/0.0.1920.1040/5760.0.1920.1040@1920.0.1920.1040" timestamp="1591074432904" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1598826468955">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1584410418979" />
-    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584408842500" />
-    <state width="1493" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584661649157" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center/3840.0.1920.1040/1920.0.1920.1040/5760.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1585007094991" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1585007094991">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1598826468955" />
+    <state width="1877" height="265" key="GridCell.Tab.0.right/3840.0.1920.1040/0.0.1920.1040/1920.0.1920.1040/5760.0.1920.1040@1920.0.1920.1040" timestamp="1591275957102" />
+    <state width="1877" height="265" key="GridCell.Tab.0.right/3840.0.1920.1040/1920.0.1920.1040/0.0.1920.1040/5760.0.1920.1040@1920.0.1920.1040" timestamp="1591074432904" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1598826468955">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1584410418979" />
-    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584408842500" />
-    <state width="1493" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584661649157" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left/3840.0.1920.1040/1920.0.1920.1040/5760.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1585007094991" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1585007094992">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1598826468955" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1598826468955">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1584410418979" />
-    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584408842500" />
-    <state width="1493" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584661649157" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right/3840.0.1920.1040/1920.0.1920.1040/5760.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1585007094992" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1584746098785">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1598826468955" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1598826468955">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583809904901" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/3840.0.1920.1040/1920.0.1920.1040/5760.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1584746098785" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1584746098785">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1598826468955" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1598826468955">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1583809904901" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center/3840.0.1920.1040/1920.0.1920.1040/5760.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1584746098785" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1584746098785">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1598826468955" />
+    <state x="328" y="287" key="com.intellij.ide.util.TipDialog" timestamp="1598826191107">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1583809904901" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left/3840.0.1920.1040/1920.0.1920.1040/5760.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1584746098785" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1584746098785">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1583809904901" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right/3840.0.1920.1040/1920.0.1920.1040/5760.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1584746098785" />
-    <state x="2266" y="69" key="SettingsEditor" timestamp="1584757681109">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1574" y="69" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1584409962894" />
-    <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1583950591689" />
-    <state x="2266" y="69" key="SettingsEditor/3840.0.1920.1040/1920.0.1920.1040/5760.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1584757681109" />
-    <state x="2248" y="287" key="com.intellij.ide.util.TipDialog" timestamp="1584664907118">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="133" y="148" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1584409952979" />
-    <state x="133" y="148" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584475238308" />
-    <state x="2248" y="287" key="com.intellij.ide.util.TipDialog/3840.0.1920.1040/1920.0.1920.1040/5760.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1584664907118" />
-    <state x="2535" y="179" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1584746679377">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2535" y="179" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/3840.0.1920.1040/1920.0.1920.1040/5760.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1584746679377" />
-    <state x="2459" y="183" width="840" height="856" key="search.everywhere.popup" timestamp="1585006509412">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1584574814410" />
-    <state x="2459" y="183" width="840" height="856" key="search.everywhere.popup/3840.0.1920.1040/1920.0.1920.1040/5760.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1585006509412" />
+    <state x="328" y="287" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1598826191107" />
+    <state x="2248" y="287" key="com.intellij.ide.util.TipDialog/3840.0.1920.1040/0.0.1920.1040/1920.0.1920.1040/5760.0.1920.1040@1920.0.1920.1040" timestamp="1591276670195" />
+    <state x="2248" y="287" key="com.intellij.ide.util.TipDialog/3840.0.1920.1040/1920.0.1920.1040/0.0.1920.1040/5760.0.1920.1040@1920.0.1920.1040" timestamp="1591053055231" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python Programs/Basics/WhileLoop.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
